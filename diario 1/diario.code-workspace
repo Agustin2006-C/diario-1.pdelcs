@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../futbol/prueba 2"
+		},
+		{
+			"path": "../boostrap.diario"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "boostrap.diario"
+	}
+}

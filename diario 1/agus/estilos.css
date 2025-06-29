@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Cabecera */
+header {
+    background-color: #a71111;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+header nav ul li a.boton {
+    background-color: #555;
+    color: white;
+}
+
+header nav ul li a.boton:hover {
+    background-color: #777;
+}
+.navegacion {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0; /* Elimina el margen por defecto */
+    display: flex; /* Distribuye los elementos horizontalmente */
+    justify-content: space-between; /* Distribuye los elementos con espacios iguales */
+}
+
+.navegacion li {
+    margin-right: 0px; /* Agrega un margen a la derecha de cada elemento */
+}
+
+.navegacion li:last-child {
+    margin-right: 10; /* Elimina el margen del último elemento */
+}
+
+.boton {
+    padding: 6px 8px; /* Agrega relleno a los botones */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado */
+    border-radius: 1px; /* Redondea las esquinas */
+    transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+.boton:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el mouse */
+}
+
+
+/* Noticias Destacadas */
+.noticias-destacadas {
+    padding: 2em;
+}
+
+.noticia {
+    background-color: #2abbce8c;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.imagen-noticia {
+    max-width: 75%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Sección de Entretenimiento */
+.entretenimiento {
+    background-color: #af531e8c;
+    border: 1px solid #ddd;
+    padding: 3em;
+    margin-bottom: 2em;
+}
+
+
+/* Sección de deportes */
+.deportes {
+    background-color: #4d576d8c;
+    border: 1px solid #ddd;
+    padding: 3em;
+    margin-bottom: 2em;
+}
+.imagen-deportes {
+    max-width: 70%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #341f57;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
